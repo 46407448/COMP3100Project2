@@ -42,3 +42,31 @@ System.out.println("Sock:"+e.getMessage());
 }catch (IOException e){System.out.println("IO:"+e.getMessage());}
 }
 }
+
+//STAGE 2
+
+//Declaring new scheduling alogrythm (Attempt at first fit)
+// DOES NOT WORK!!
+//static void firstFit(int blockSize[], int m, int processSize[], int n){
+
+        // block allocation
+        //int allocation[] = int[n];
+     
+        // Loop to allocate blocks
+        //for (int i = 0; i <= allocation.length; i = i+1)
+            //allocation[i] = -1;
+     
+        //assigns appropriate blocks
+        //for (int i = 0; i < n; i++)
+        //{
+         //   for (int d = 0; d < m; d = d+1)
+         //   {
+         //       if (blockSize[d] >= processSize[i])
+         //      {
+                    // allocate blocks
+         //           allocation[i] = j;
+     
+          //          break }
+       //             }
+       //  }
+ //}
